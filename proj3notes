@@ -1,0 +1,51 @@
+GRADE SHEET FOR Gabriel Duarte
+FINAL GRADE: 86/90
+================
+Dictionary File Handling (12 pts, 4 pts each)
+-Non-alphabetic words, blank lines, duplicates are ignored from dictionary: 4 points
+-Frequency stats are well-orgainze and correctly computed: 4 points
+-Empty files are handled as described in specs: 4 points
+Total: 4 points
+=================
+Text output - grammar, spelling, politeness (7 points)
+Total: 7 points
+================
+General behavior (36 pts, 4 pts each)
+-Can start new game, opt to not play any more game, invalid options are handled as described: 4 points
+-Random word is chosen and an appropirate revealed word is generated as described in instructions: 4 points
+-Incorrect guesses are tracked and displayed unobtrusively: 4 points
+-Upper case, lowercase, non-alphabetic, strings, and blank lines are handled as described: 4 points
+-Correct, incorrect guesses, and repeated guesses are handled as in specs: 4 points
+-Appropriate messages are displayed in winning and losing cases: 4 points
+-With revealed word, the total number of words in the dictionary that match the pattern are shown: 0 points
+- Figure graphics are displayed and display in right order and match specs: 4 points
+- if WINSIZE is redefined, graphics still look ok: 4 points
+Total: 32 points
+=========================
+Filename (1 pt)
+Total: 1 point
+==================
+Docstring (2 pts)
+Total: 2 points
+=================
+Usage of functions (5 pts)
+Total: 5 points
+===============
+Function parameters and return values (2 pts)
+Total: 2 points
+============
+Variable and fucntion names (4 points)
+Total: 4 points
+====================
+Function documentation (3 points)
+Total: 3 points
+=============
+Other documentation (3 points)
+Total: 3 points
+===========
+Formatting (8 points)
+Total: 8 points
+====================
+Algorithm (7 points)
+Total: 7 points
+=====================

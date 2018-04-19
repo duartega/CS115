@@ -1,0 +1,66 @@
+[X] Author documented in docstring
+[X] Program documentation in docstring
+[ ] Search implementations
+[X] Output
+[ ] Program Behavior
+
+
+Comments:
+
+Various formatting differences.
+
+Debugging prints in output.  Please remove these before submitting your programs!
+
+    if value_to_find not in search_list:
+            print('**Binary search iterations:', count)
+	            print('Binary search: None')
+		            return None
+
+Causes your program to execute a linear search within your binary search!  This is an unreasonable action for a binary search to perform.
+
+binary_search returns the index of the value - 1 instead of the index itself!
+
+        elif (mid_item == value_to_find):
+	            print('**Binary search iterations:', count)
+		                return middle - 1
+
+This should have just been:
+
+        elif (mid_item == value_to_find):
+	            print('**Binary search iterations:', count)
+		                return middle
+
+This also caused you to correct the index within main:
+            if binary_position != None:
+	                    print('Binary search:', binary_position + 1)
+
+fixing this in the recommended manner above would cause this code to change to:
+            if binary_position != None:
+	                    print('Binary search:', binary_position)
+
+Which would also be compatible with printing None if binary_search returned it!
+
+
+Thus you would be able to change:
+
+    if value_to_find not in search_list:
+            print('**Binary search iterations:', count)
+	            print('Binary search: None')
+		            return None
+
+to:
+
+	print('**Binary search iterations:', count)
+			return None
+
+and the code in main from:
+
+            if binary_position != None:
+	                    print('Binary search:', binary_position)
+
+to:
+
+			print('Binary search:', binary_position)
+
+
+<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

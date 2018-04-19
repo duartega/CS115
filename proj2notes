@@ -1,0 +1,76 @@
+GRADE SHEET FOR Gabriel Duarte
+FINAL SCORE: 87/90
+===============================
+BOARD CONFIGURATION: 15 Points -- 5 points each
+Case 1: 5 points
+Game dimensions match description -
+
+Case 2: 5 points
+Board has correct number of pieces and is random each game -
+
+Case 3: 5 points
+On start, board is drawn with all cards hidden -
+
+TOTAL SCORE: 15 points
+===============================================
+CLICK BEHAVIOR: 50 points -- 5 points each
+Case 1: 5 points
+When the hidden card at (i,j) is clicked, the card at (i, j) is shown -
+
+Case 2: 5 points
+The 'first pick' stays shown until a 'second pick' is made -
+
+Case 3: 5 points
+When the 'first pick' and 'second pick' match, they stay visible and haave a red 'X' -
+
+Case 4: 5 points
+When the 'first pick' and ' second pick' are not a match, they are hidden again -
+
+Case 5: 5 points
+A red 'X' is never drawn over unmatched cards -
+
+Case 6: 5 points
+Matched cards stay visible and marked with an 'X' for the duration of the game -
+
+Case 7: 5 points
+When making a 'first pick', the following actions are ignored: clicking in margins, clicking matched cards -
+
+Case 8: 5 points
+When making a 'second pick', the following actions are ignored: clicking in the margin, clicking matched cards, clicking unhidden cards -
+
+Case 9: 5 points
+The winning condition is detected when all pairs are matched, and the you_won() function is called -
+
+Case 10: 5 points
+Program exits without any error messages if the graphics window is closed -
+
+TOTAL SCORE: 50 points
+==========================================================================
+FILENAME - 1 point
+
+TOTAL SCORE: 1 point
+=====================================================
+DOCSTRING - 3 points
+
+TOTAL SCORE: 3 points
+=======================================================
+FUNTION BEHAVIOR - 4 points
+
+TOTAL SCORE: 4 points
+=====================================================
+FUNCTION DOCUMENTATION - 3 points
+--no documentation beyond what was provided by the professor
+TOTAL SCORE: 0 points
+======================================================
+OTHER DOCUMENTATION - 3 points
+
+TOTAL SCORE: 3 points
+=====================================================
+VARIABLE DECLARATIONS AND NAMING - 4 points
+
+TOTAL SCORE: 4 points
+====================================================
+ALGORITHM - 2 points
+
+TOTAL SCORE: 2 points
+===================================================
